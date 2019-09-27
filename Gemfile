@@ -1,6 +1,7 @@
 source "https://rubygems.org"
+gen 'hashie'
 gem "rspec", :group => :tests 
-gem "sinatra", '~> 1.4.4'
+gem "sinatra", '== 1.4.4'
 
 group :development do
 gem "pry"
